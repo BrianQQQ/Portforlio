@@ -33,6 +33,10 @@ import roc from "./company/roc.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import travel from "./travel.png";
+import chbs from "./chbs.png";
+import blog from "./blog.png";
+
 
 export {
   logo,
@@ -67,4 +71,7 @@ export {
   decathlon,
   tel,
   roc,
+  blog,
+  travel,
+  chbs
 };

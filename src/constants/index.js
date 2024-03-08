@@ -26,7 +26,10 @@ import {
   threejs,
   decathlon,
   tel,
-  roc
+  roc,
+  blog,
+  travel,
+  chbs
 } from "../assets";
 
 export const navLinks = [
@@ -217,67 +220,64 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Country Home Baking Website",
+    description: `This project involved developing an e-commerce website for a local bakery shop using Python's Django framework, incorporating comprehensive CRUD functionalities, backend admin updates, seamless shopping cart and order placement for customers, secure Google OAuth admin login, and leveraging HTML/CSS/Javascript with Bootstrap and SQLite for frontend and backend development respectively.`,
     tags: [
       {
-        name: "react",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: chbs,
+    source_code_link: "https://github.com/BrianQQQ/Country-Home-Baking-Sweets-CHBS-",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Blog app",
+    description: `This project entailed engineering a multi-user blog website with the Python Django framework, featuring full CRUD capabilities, user registration, personal information updates, blog post creation, password recovery, deployed on Heroku for reliable performance, and utilizing HTML/CSS/Javascript with Bootstrap for the frontend and PostgreSQL for the backend.`,
     tags: [
       {
-        name: "react",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Postgresql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: blog,
+    source_code_link: "https://github.com/BrianQQQ/BrianQQQ-Blog-App-Django",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Domestic Travel Agency App",
+    description: `This project involved designing and developing a website for a domestic travel agency, utilizing HTML/CSS/Javascript for frontend development and PHP for backend tasks, with a focus on implementing custom Javascript-based user authentication for secure access and user management.`,
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PHP",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: travel,
+    source_code_link: "https://github.com/BrianQQQ/Canada-domestic-travel-agency",
   },
 ];
 
